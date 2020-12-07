@@ -1,0 +1,18 @@
+{
+  "name": "sallve",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:m7he4rt/sallve-challenge.git",
+  "author": "m7he4rt <mateuspm2015@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "web:dev": "yarn workspace @sallve/web start",
+    "web:build": "yarn workspace @sallve/web build"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "dependencies": {}
+}
