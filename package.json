@@ -7,7 +7,9 @@
   "license": "MIT",
   "scripts": {
     "web:dev": "yarn workspace @sallve/web start",
-    "web:build": "yarn workspace @sallve/web build"
+    "web:build": "yarn workspace @sallve/web build",
+    "api:create": "docker-compose pull",
+    "api:dev": "docker-compose up"
   },
   "workspaces": {
     "packages": [
