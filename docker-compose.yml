@@ -20,8 +20,8 @@ services:
     image: mongo
     environment:
       MONGO_INITDB_DATABASE: strapi
-      MONGO_INITDB_ROOT_USERNAME: strapi
-      MONGO_INITDB_ROOT_PASSWORD: strapi
+      MONGO_INITDB_ROOT_USERNAME: sallveadmin
+      MONGO_INITDB_ROOT_PASSWORD: admin@123
     volumes:
       - ./data:/data/db
     ports: 
